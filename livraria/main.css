@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+body{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+header {
+    padding: 16px;
+    background-image: url(./img/papelParede.jpg);
+    background-size: cover;  
+    font-size: 24px;
+    color: wheat;  
+}
+
+
+
+nav{
+    border: 1px solid #450203;
+    text-align: center;
+    padding: 14px;
+    background-color: #450203;
+}
+
+
+li a{
+    color: wheat;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:  rgb(242, 195, 109);;
+}
+
+nav li {
+    display: inline;
+}
+h2{
+    background-color: #450203;
+    text-align: center;
+    color: wheat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h3{
+    margin-top: 30px;
+    padding: 10px
+}
+
+#livros div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 3px solid #450203;
+    background-color: #450203;
+    color: wheat;
+    margin-bottom: 20px;
+}
+
+#livros img{
+    height: 300px;
+    width: 230px;
+}
+
+p {
+    width: 800px;
+    margin-left: 10px;
+}
+
+#livros button {
+    color: #450203;
+    text-decoration: solid;
+    font-size: larger;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    left: 90px;
+    background: wheat;
+    cursor: pointer;
+
+}
+
+#livros button:hover {
+    background-color: rgb(242, 195, 109);
+    
+}
+
+.redes img{
+    height: 20px;
+}
+
+#contato {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #450203;
+
+}
+
+#contato, h4, p{
+    color: wheat;
+    padding: 10px;
+    margin-bottom: 22px;
+}
+
+#contato img {
+    height: 20px;
+}
+
+form input, 
+form textarea, 
+form button{
+    display: block;
+    margin-bottom: 8px;
+    width: 320px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.nos p{
+    width: 400px;
+    
+}
+
+form button{
+    color: #450203;
+    background: wheat;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(242, 195, 109);
+}
+
+footer {
+    background-color: #450203;
+
+}
