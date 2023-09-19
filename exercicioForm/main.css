@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 240px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.mensagem {
+    font-weight: bold;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(103, 103, 250);
+    font-size: 18px;
+    font-weight:bold;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(139, 139, 253);
+}
